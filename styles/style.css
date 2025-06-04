@@ -173,4 +173,80 @@ footer {
   .projects-contents {
     width: 90%;
   }
+  .projects-top {
+    flex-direction: column;
+  }
+  .projects-bottom {
+    flex-direction: column;
+  }
+  .projects-contents img {
+    height: 340px;
+  }
+}
+
+@media (max-width: 580px) {
+  #welcome-section h1 {
+    font-size: 40px;
+  }
+
+  #welcome-section {
+    padding-top: 115px;
+    padding-bottom: 45px;
+  }
+}
+
+@media (max-width: 550px) {
+  #contact-section {
+    padding: 20px 0;
+  }
+  #contact-section ul li {
+    display: block;
+  }
+  #contact-section ul a {
+    padding: 12px 0;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+@media (max-width: 460px) {
+  header {
+    text-align: center;
+  }
+  #welcome-section h1 {
+    font-size: 32px;
+  }
+  #welcome-section p:nth-of-type(1) {
+    font-size: 19px;
+  }
+  #welcome-section p {
+    font-size: 14px;
+  }
+  #welcome-section a {
+    font-size: 18px;
+  }
+  #welcome-section {
+    padding: 80px 0 15px 0;
+  }
+}
+
+@media (max-width: 380px) {
+  #navbar ul li a {
+    padding: 10px 25px;
+  }
+  #welcome-section h1 {
+    font-size: 27px;
+  }
+  #welcome-section {
+    padding: 65px 0 15px 0;
+  }
+  .projects-contents img {
+    height: 280px;
+  }
+}
+
+@media (max-width: 345px) {
+  #navbar ul li a {
+    padding: 10px 20px;
+  }
 }
