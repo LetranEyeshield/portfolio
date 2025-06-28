@@ -92,6 +92,11 @@ header {
   align-items: center;
 }
 
+.projects-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .projects-bottom {
   display: flex;
   justify-content: center;
@@ -174,6 +179,9 @@ footer {
     width: 90%;
   }
   .projects-top {
+    flex-direction: column;
+  }
+  .projects-middle {
     flex-direction: column;
   }
   .projects-bottom {
