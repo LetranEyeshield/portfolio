@@ -11,7 +11,7 @@ a {
 }
 header {
   width: 100%;
-  position: fixed;
+  /* position: fixed; */
   background: #121243;
   text-align: right;
 }
